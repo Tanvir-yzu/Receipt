@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Total:");
         System.out.println(38 + 40 + 30 +
                 (38 + 40 + 30) * .08 +
-                (38 + 40 + 30) * .15);
+                (38 + 40 + 30) * .15 *14.3);
 
         for (int line = 1; line <= 5; line++) {
             for (int j = 1; j <= (-1 * line + 5); j++) {
@@ -19,6 +19,7 @@ public class Main {
             for (int k = 1; k <= line; k++) {
                 System.out.print(line);
             }
+
             System.out.println();
         }
 
